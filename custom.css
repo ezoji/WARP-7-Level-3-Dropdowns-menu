@@ -1,0 +1,9 @@
+/* warp7 level3 menu */
+@media (min-width: 960px){
+.uk-open > ul.uk-nav li.uk-parent{display:block;}
+ul.level3{ margin-top: -30px; position: absolute; top: auto; padding: 4px 0 0 0;}
+ul.level3 li a{ padding: 5px 20px;}
+li.uk-parent .uk-dropdown li.uk-parent a:after{ content:"\f105"; font-family: FontAwesome; font-size: 17px; position: absolute; right: 12px;}
+ul.level3 li a:after{ content:""; display: none;}
+}
+/* warp7 level3 menu */
